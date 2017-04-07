@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_price_before_discount'
-  s.version     = '3.1.3'
+  s.version     = '3.1.0'
   s.summary     = 'It allows you to show price before discouted'
   s.description = 'It allows you to show price before discouted for product and variants'
   s.required_ruby_version = '>= 2.1.0'
