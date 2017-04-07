@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_price_before_discount'
-  s.version     = '3.1.4'
+  s.version     = '3.1.3'
   s.summary     = 'It allows you to show price before discouted'
   s.description = 'It allows you to show price before discouted for product and variants'
   s.required_ruby_version = '>= 2.1.0'
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.1.4'
+  s.add_dependency 'spree_core', '~> 3.1.3'
 
   s.add_development_dependency 'capybara', '~> 2.6'
   s.add_development_dependency 'coffee-rails'
