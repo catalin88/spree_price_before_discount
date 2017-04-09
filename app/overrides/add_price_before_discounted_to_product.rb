@@ -18,7 +18,7 @@ Deface::Override.new(
   text: "
     <div data-hook='admin_product_form_price_before_discount'>
       <%= f.field_container :price_before_discount, class: ['form-group'] do %>
-        <%= f.label :price_before_discount, raw(Spree.t(:price_before_discount) + content_tag(:span, ' *', class: 'required')) %>
+        <%= f.label :price_before_discount, raw(Spree.t(:price_before_discount)) %>
         <%= f.text_field :price_before_discount, value: number_to_currency(@product.price_before_discount, unit: ''), class: 'form-control', disabled: (cannot? :update, @product.price) %>
         <%= f.error_message_on :price_before_discount %>
       <% end %>
